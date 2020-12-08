@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <h1>To do List Application</h1>
+    <p>Add Task</p>
+    <input type="text" id="txtInput" placeholder="Add task..."/>
+    <input type="button" value="Add" id="btnAdd">
+    <div class="heading">
+        <p>Pending Tasks</p>
+        <div id="pending">
+            <ol id="pendingList"></ol>
+        </div>
+        <p>Completed Tasks</p>
+        <div id="completed">
+            <ol id="CompletedList"></ol>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

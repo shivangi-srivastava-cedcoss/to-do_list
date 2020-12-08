@@ -1,0 +1,67 @@
+p
+{
+    font-size: 1.2em;
+    color: rgb(28, 28, 139);
+    font-weight: bold;
+}
+.heading p
+{
+    color:rgb(66, 66, 233);
+    font-size: 1.7em;
+}
+#completed
+{
+    color:rgb(0, 81, 0);
+    font-size: 1.2em;
+}
+#pending
+{
+    color: #ff5400;
+    font-size: 1.2em;
+}
+.mb-li
+{
+    margin-bottom: 10px;
+}
+#txtInput
+{
+    background: #e0dddd;
+    border: 1px solid #e0dddd;
+    height: 5vh;
+    width: 40%;
+    padding-left: 1%;
+}
+#btnAdd
+{
+    height: 5.5vh;
+    width: 12%;
+    background: #41dc41;
+    border: 1px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+.checkbox
+{
+    transform: scale(1.5);
+}
+#pendingList .checkbox, #pendingList label,#pendingList input[type=text] ,#pendingList .btnEdit, #pendingList .btnDel, #CompletedList .checkbox, #CompletedList label,#CompletedList input[type=text] ,#CompletedList .btnEdit, #CompletedList .btnDel
+{
+    margin-left: 2%;
+}
+.btnEdit, .btnDel
+{
+    height: 4vh;
+    width: 10%;
+    font-size: 1em;
+    border: 1px;
+    color: white;
+}
+#pendingList .btnEdit, #pendingList .btnDel
+{
+    background: #ff7b3b;
+}
+#CompletedList .btnEdit, #CompletedList .btnDel
+{
+    background: #005100;
+}
