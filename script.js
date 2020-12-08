@@ -19,7 +19,7 @@ $(document).on("click", ".btnEdit", function() {
     {
         editli.children(".btnEdit").val('Edit');
         editli.children("label").text(editli.children("input[type=text]").val());
-        editli.children("input[type=text]").val('');
+        $("input[type=text]").val('');
     }
 });
 $(document).on("click", ".checkbox", function() {
